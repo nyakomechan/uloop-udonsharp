@@ -10,6 +10,7 @@ Code examples for UdonSharp-specific operations using `uloop execute-dynamic-cod
 - `using` directives must appear at the top of the snippet.
 - Replace `MyScript` / `MyNamespace.MyScript` with the actual type name of the UdonSharpBehaviour subclass in your project.
 - **Prefer `string.Format()` over `$"..."` string interpolation**: C# string interpolation (`$"..."`) works in principle but is harder to read and debug when converted to PowerShell quoting. All code examples in this reference use `string.Format()` for clarity.
+- Before using this skill, Copy uloop-udosharp/UdonSharpProgramAssetAutoGenerator.cs to Assets/Editor folder.
 
 ---
 
